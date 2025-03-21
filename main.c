@@ -51,6 +51,13 @@ void print_formatted(char a, char b);
 char input_char();
 
 int main() {
+	char c = input_char();
+	add_to_format('%');
+	add_to_format('c');
+	add_to_format(':');
+	add_to_format('%');
+	add_to_format('d');
+	print_formatted(c, c);
 	/* To Do: 주어진 함수들을 활용해서 문자 하나를 입력받고, 문자 형식과 숫자 형식으로 출력해보세요 */
 
 	
